@@ -89,7 +89,24 @@
 .row{
     display: flex;    
 }
-.leftbg{
-    width: 30px;
-    background-repeat: no-repeat;
+.training{
+    width:30%;
+    background-color: #FFFAFA;
+    height: 400px;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+.internship{
+    width:30%;
+    background-color: #FFFAFA;
+    height: 400px;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
+}
+.talent{
+    width:30%;
+    background-color: #FFFAFA;
+    height: 400px;
+    padding: 61px 47px 82px 36px;
+    text-align: justify-all;
 }
