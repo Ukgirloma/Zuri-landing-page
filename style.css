@@ -3,5 +3,93 @@
     box-sizing: border-box;
 }
 .first{
-    background-image: url(./)
+    background-image: url(./landingpage/hero-bg.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.logo{
+    display: flex;
+    margin: auto;
+    margin-bottom: 60px;
+    padding-top: 70px;
+    justify-content: center;
+}
+.hero{
+    text-align: center;
+}
+.hero h2{
+    margin-bottom: 40px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #514949;
+    line-height: 50px;
+}
+.hero p{
+    font-size: 16px;
+    color: #514949;
+    opacity: 1;
+    line-height: 25px;
+    margin-bottom: 20px;
+    }
+ .hero a{
+        text-decoration: none;
+        color:  #eb5850;
+    }
+.btn{
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+}
+.new{
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 25px;
+    padding: 16px 30px;
+    border: 1px solid #E7332B;
+}
+.new:hover{
+    background-color: #fff;
+    color: #E7332B;
+}
+.experience{
+    background-color: #fff;
+    border: 1px solid #E7332B;
+    padding: 16px 35px;
+    color: #E7332B;
+}
+.experience:hover{
+    background-color: #E7332B;
+    color: #fff;
+}
+.second{
+    background-color: #fff;
+    overflow: hidden;
+}
+.cater{
+    text-align: center;
+    margin-top: 100px;
+}
+.cater h4{
+    color: #E7332B;
+    font-size: 15px;
+    line-height: 24px;
+}
+.cater p{
+    font-size: 25px;
+    text-align: center;
+    color: #514949;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.row{
+    display: flex;    
+}
+.training{
+background-image: url(./landingpage/talentbg.png);
+background-position: center left;
 }
