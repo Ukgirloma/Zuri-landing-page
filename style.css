@@ -89,7 +89,7 @@
 .row{
     display: flex;    
 }
-.training{
-background-image: url(./landingpage/talentbg.png);
-background-position: center left;
+.leftbg{
+    width: 30px;
+    background-repeat: no-repeat;
 }
