@@ -2,6 +2,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
 .first{
     background-image: url(./landingpage/hero-bg.svg);
     height: 700px;
@@ -87,26 +90,91 @@
     font-weight: 500;
 }
 .row{
-    display: flex;    
+    display: flex;   
+    
 }
-.training{
-    width:30%;
-    background-color: #FFFAFA;
-    height: 400px;
+
+.column{
+    width:100%;
     padding: 61px 47px 82px 36px;
     text-align: justify-all;
+    
+
 }
-.internship{
-    width:30%;
+.card{
     background-color: #FFFAFA;
-    height: 400px;
-    padding: 61px 47px 82px 36px;
-    text-align: justify-all;
+    padding: 15px;
+    height: 500px;
+    margin-left: 20px;
+    
+
 }
-.talent{
-    width:30%;
-    background-color: #FFFAFA;
-    height: 400px;
-    padding: 61px 47px 82px 36px;
-    text-align: justify-all;
+.card img{
+margin-bottom: 40px;
+margin-top: 20px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #514949;
+    opacity: 1;
+}
+.card h4 a{
+    font-size: 16px;
+    line-height: 25px;
+    color: #E7332B;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+footer{
+    margin-bottom: 200px;
+}
+.footer{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 60px;
+   padding: 15px;
+   margin-top: 70px;
+}
+footer h3{
+    font-size:16px;
+    font-weight:bold ;
+    line-height: 25px;
+    color: #514949;
+}
+footer a{
+    text-decoration: none;
+    color: #eb5850;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    line-height: 30px
+}
+.team-logo{
+    margin-left: 30px;
+}
+.contact p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #514949;
+    opacity: 1;
+}
+.social-media .social-icon{
+    width: 5%;
+    display: flex;
+    margin-right: 5px;
+}
+footer hr{
+    opacity: 0.5;
+    border: 0.7px solid #514949;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #514949;
+
 }
