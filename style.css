@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 body{
-font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Averta-Regular', sans-serif;
+    font-weight: 400;
 }
 .first{
     background-image: url(./landingpage/hero-bg.svg);
@@ -21,12 +22,12 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .hero{
     text-align: center;
+    margin: 0 auto;
 }
 .hero h2{
     margin-bottom: 40px;
     padding-top: 40px;
     font-size: 30px;
-    font-weight: 800;
     color: #514949;
     line-height: 50px;
 }
@@ -52,20 +53,26 @@ font-family: Arial, Helvetica, sans-serif;
     margin-right: 25px;
     padding: 16px 30px;
     border: 1px solid #E7332B;
+    font-family: 'Averta-Regular', sans-serif;
+    font-weight: 400;
 }
 .new:hover{
     background-color: #fff;
     color: #E7332B;
+    cursor: pointer;
 }
 .experience{
     background-color: #fff;
     border: 1px solid #E7332B;
     padding: 16px 35px;
     color: #E7332B;
+    font-family: 'Averta-Regular', sans-serif;
+     font-weight: 400;
 }
 .experience:hover{
     background-color: #E7332B;
     color: #fff;
+    cursor: pointer;
 }
 .second{
     background-color: #fff;
@@ -136,6 +143,7 @@ footer{
    margin-bottom: 60px;
    padding: 15px;
    margin-top: 70px;
+   margin-right: 40px;
 }
 footer h3{
     font-size:16px;
@@ -163,7 +171,7 @@ footer a{
 .social-media .social-icon{
     width: 5%;
     display: flex;
-    margin-right: 5px;
+    
 }
 footer hr{
     opacity: 0.5;
@@ -177,4 +185,24 @@ footer hr{
     margin-top: 30px;
     color: #514949;
 
+}
+@media screen (max-width: 600px){
+    .first{
+        height: auto;
+    }
+    .logo{
+        display:block ;
+        padding-top: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .hero h2{
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .btn{
+        margin-bottom: 50px;
+      }
+     button.
 }
