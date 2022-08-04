@@ -6,22 +6,120 @@ body{                                                                     font-f
     font-family: 'Graphik', sans-serif;
 
 }
+.navbar{
+    z-index: 1200;
+    position: fixed;
+    margin-top: 20px;
+    justify-content: space-between;
+
+   
+}
 .header-content{
     display: flex;
-    margin-top: 20px;
-    margin-left: 100px;
-    background-color: white;
+    width: 100%;
+    height: 50px;
 }
-.href{
-    margin-left: 10rem;
+ul{
+    display: block;
+    list-style-type:disc ;
 }
 .href a{
-    text-decoration: none;
-    margin-right: 3rem;
+    text-decoration: none;  
+    color: #161617;
+    font-weight: 300;
+    font-size: 16px;
 }
+
 .my-btn{
-margin-left: 10rem;
+margin-top: -0.5em;
 }
-button{
-    background-color: red;
+.btn-red{
+    background-color:#e7332b;
+    color: #fff;
+    font-family: 'Graphik', sans-serif;
+    padding: 12px 25px;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #e7332b;
+    border-radius: 0 0 9px 0;
+    width: 100%;
+
+}
+.vet-flex{
+    display: flex;
+    width: 80%;
+    margin: 6rem auto;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    display:flex;
+    justify-content: flex-end;   
+}
+.linex{
+    margin-top: -150px;
+    position: absolute;
+    right: 0;
+    z-index: -100;
+}
+.vet-img{
+    width: 100%;
+    
+}
+.vetted{
+    padding: 30px;
+    margin: 5rem auto;
+    width: 100%;
+    margin-right: 50px ;
+}
+.vetted h2{
+    color: #161617;
+    font-family: 'Graphik', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+float: left;
+    
+}
+.vetted span{
+    color: #e7332b;
+}
+.thicksvg{
+    margin-top: -40px;
+    margin-left: 430px ;
+    
+}
+.btn-box{
+    margin-top: 3em;
+    display: block;
+}
+.hiretalent{
+    padding: 12px 50px;
+    background-color: #e7332b;
+    border: 1px solid #e7332b;
+    border-radius: 0 0 10px 0 ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+   font-family: 'Graphik', sans-serif;
+    
+}
+.joinpool{
+    padding: 12px 50px;
+    background-color: #585858!important;
+    border: 1px solid #585858;
+    border-radius: 0 0 10px 0 ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+   font-family: 'Graphik', sans-serif;
+}
+.vetted-p{
+    color: #161617;
+    font-weight: 400;
+    opacity: 0.5;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+
 }
