@@ -2,9 +2,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Averta';
+    src: url('http://fonts.cdnfonts.com/css/averta-standard?styles=17375');
+}
 body{
-    font-family: 'Averta-Regular', sans-serif;
     font-weight: 400;
+    font-family: 'Averta Standard', sans-serif;
 }
 .first{
     background-image: url(./landingpage/hero-bg.svg);
@@ -42,6 +46,8 @@ body{
         text-decoration: none;
         color:  #eb5850;
     }
+
+
 .btn{
     margin-top: 92px;
     display: flex;
@@ -53,8 +59,9 @@ body{
     margin-right: 25px;
     padding: 16px 30px;
     border: 1px solid #E7332B;
-    font-family: 'Averta-Regular', sans-serif;
+    font-family: 'Averta Standard', sans-serif;
     font-weight: 400;
+    font-size: 20px;
 }
 .new:hover{
     background-color: #fff;
@@ -66,8 +73,9 @@ body{
     border: 1px solid #E7332B;
     padding: 16px 35px;
     color: #E7332B;
-    font-family: 'Averta-Regular', sans-serif;
+    font-family: 'Averta Standard', sans-serif;                                            
      font-weight: 400;
+     font-size: 20px;
 }
 .experience:hover{
     background-color: #E7332B;
@@ -98,23 +106,18 @@ body{
 }
 .row{
     display: flex;   
-    
 }
 
 .column{
     width:100%;
     padding: 61px 47px 82px 36px;
     text-align: justify-all;
-    
-
 }
 .card{
     background-color: #FFFAFA;
     padding: 15px;
     height: 500px;
     margin-left: 20px;
-    
-
 }
 .card img{
 margin-bottom: 40px;
@@ -169,9 +172,8 @@ footer a{
     opacity: 1;
 }
 .social-media .social-icon{
-    width: 5%;
-    display: flex;
-    
+    width: 20%;
+    display: flex; 
 }
 footer hr{
     opacity: 0.5;
@@ -186,7 +188,7 @@ footer hr{
     color: #514949;
 
 }
-@media screen (max-width: 600px){
+@media screen and (max-width: 600px){
     .first{
         height: auto;
     }
@@ -201,9 +203,4 @@ footer hr{
         line-height: 35px;
         text-align: center;
     }
-    .btn{
-        margin-bottom: 50px;
-      }
-     button.
-
 }
