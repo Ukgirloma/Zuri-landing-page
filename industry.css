@@ -1,0 +1,42 @@
+.section-1{
+  background-color: rgb(255, 253, 245);
+  margin: 0;
+  padding: 0;
+}
+.parent{
+    display: flex;
+    z-index: 1000;
+}
+.href{
+  margin: auto;
+}
+.href ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .href li{
+    float: left;
+  }
+  .href li a{
+    display: block;
+    color: #514949;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    justify-content: space-between;
+  }
+  .enroll button{
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+  }
+  .picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .text{
+    max-width: 14em;
+  }
